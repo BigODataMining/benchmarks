@@ -1,0 +1,16 @@
+{
+  "language": "en",
+  "task": "similarity",
+  "description": "SimLex-999",
+  "version": "-",
+  "cite": "@article{hill2015simlex,
+          title={Simlex-999: Evaluating semantic models with (genuine) similarity estimation},
+          author={Hill, Felix and Reichart, Roi and Korhonen, Anna},
+          journal={Computational Linguistics},
+          volume={41},
+          number={4},
+          pages={665--695},
+          year={2015},
+          publisher={MIT Press}
+        }"
+}

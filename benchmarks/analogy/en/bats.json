@@ -1,0 +1,13 @@
+{
+  "language": "en",
+  "task": "analogy",
+  "description": "Bigger Analogy Test Set",
+  "version": "3.0",
+  "cite": "@inproceedings{gladkova2016analogy,
+          title={Analogy-based detection of morphological and semantic relations with word embeddings: what works and what doesn't.},
+          author={Gladkova, Anna and Drozd, Aleksandr and Matsuoka, Satoshi},
+          booktitle={Proceedings of the NAACL Student Research Workshop},
+          pages={8--15},
+          year={2016}
+          }"
+}

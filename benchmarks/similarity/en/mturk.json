@@ -1,0 +1,14 @@
+{
+  "language": "en",
+  "task": "similarity",
+  "description": "MTurk-771 (Acronym for Mechanical Turk)",
+  "version": "-",
+  "cite": "@inproceedings{halawi2012large,
+          title={Large-scale learning of word relatedness with constraints},
+          author={Halawi, Guy and Dror, Gideon and Gabrilovich, Evgeniy and Koren, Yehuda},
+          booktitle={Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining},
+          pages={1406--1414},
+          year={2012},
+          organization={ACM}
+          }"
+}
