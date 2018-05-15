@@ -1,13 +1,23 @@
 {
   "language": "en",
   "task": "similarity",
-  "description": "RW (acronym for Rare Word)",
+  "name": "RW",
+  "description": "Rare Word",
   "version": "-",
-  "cite": "@inproceedings{luong2013better,
-          title={Better word representations with recursive neural networks for morphology},
-          author={Luong, Thang and Socher, Richard and Manning, Christopher},
-          booktitle={Proceedings of the Seventeenth Conference on Computational Natural Language Learning},
-          pages={104--113},
-          year={2013}
-        }"
+  "preprocessing": {
+        "lowercasing": true,
+        "tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+  "size": 2034,
+  "cite": {
+          "title":"Better word representations with recursive neural networks for morphology",
+          "author":"Luong, Thang and Socher, Richard and Manning, Christopher",
+          "booktitle":"Proceedings of the Seventeenth Conference on Computational Natural Language Learning",
+          "page":"104--113",
+          "year":"2013",
+          "url":"https://nlp.stanford.edu/~lmthang/morphoNLM/"
+        }
 }

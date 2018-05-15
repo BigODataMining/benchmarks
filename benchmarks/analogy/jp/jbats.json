@@ -1,7 +1,16 @@
 {
   "language": "jp",
   "task": "analogy",
+  "name": "jBATS",
   "description": "Japanese Bigger Analogy Test Set",
   "version": "-",
+  "preprocessing": {
+        "lowercasing": true,
+        "tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+  "size": "-",
   "cite": "-"
 }

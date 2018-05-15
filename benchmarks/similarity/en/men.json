@@ -1,14 +1,24 @@
 {
   "language": "en",
   "task": "similarity",
-  "description": "MEN (acronym for Marco, Elia and Nam)",
+  "name": "MEN",
+  "description": "Marco, Elia and Nam",
   "version": "-",
-  "cite": "@article{bruni2014multimodal,
-          title={Multimodal distributional semantics},
-          author={Bruni, Elia and Tran, Nam-Khanh and Baroni, Marco},
-          journal={Journal of Artificial Intelligence Research},
-          volume={49},
-          pages={1--47},
-          year={2014}
-          }"
+  "preprocessing": {
+        "lowercasing": true,
+        "tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+  "size": 3000,
+  "cite": {
+          "title":"Multimodal distributional semantics",
+          "author":"Bruni, Elia and Tran, Nam-Khanh and Baroni, Marco",
+          "journal":"Journal of Artificial Intelligence Research",
+          "volume":"49",
+          "pages":"1--47",
+          "year":"2014",
+          "url":"https://staff.fnwi.uva.nl/e.bruni/MEN"
+          }
 }

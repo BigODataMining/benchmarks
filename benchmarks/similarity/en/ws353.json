@@ -1,14 +1,24 @@
 {
   "language": "en",
   "task": "similarity",
+  "name": "WS353",
   "description": "WordSim-353",
-  "version": "0",
-  "cite": "@inproceedings{finkelstein2001placing,
-          title={Placing search in context: The concept revisited},
-          author={Finkelstein, Lev and Gabrilovich, Evgeniy and Matias, Yossi and Rivlin, Ehud and Solan, Zach and Wolfman, Gadi and Ruppin, Eytan},
-          booktitle={Proceedings of the 10th international conference on World Wide Web},
-          pages={406--414},
-          year={2001},
-          organization={ACM}
-          }"
+  "version": "-",
+  "preprocessing": {
+				"lowercasing": true,
+				"tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+	"size": 353,
+  "cite": {
+          "title":"Placing search in context: The concept revisited",
+          "author":"Finkelstein, Lev and Gabrilovich, Evgeniy and Matias, Yossi and Rivlin, Ehud and Solan, Zach and Wolfman, Gadi and Ruppin, Eytan",
+          "booktitle":"Proceedings of the 10th international conference on World Wide Web",
+          "pages":"406--414",
+          "year":"2001",
+          "organization":"ACM",
+          "url":"http://www.cs.technion.ac.il/~gabr/resources/data/wordsim353/"
+          }
 }

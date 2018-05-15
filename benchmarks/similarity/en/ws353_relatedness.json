@@ -1,14 +1,24 @@
 {
   "language": "en",
   "task": "similarity",
+  "name": "WS353-R",
   "description": "WordSim353-Relatedness",
   "version": "-",
-  "cite": "@inproceedings{agirre2009study,
-          title={A study on similarity and relatedness using distributional and wordnet-based approaches},
-          author={Agirre, Eneko and Alfonseca, Enrique and Hall, Keith and Kravalova, Jana and Pa{\c{s}}ca, Marius and Soroa, Aitor},
-          booktitle={Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
-          pages={19--27},
-          year={2009},
-          organization={Association for Computational Linguistics}
-        }"
+  "preprocessing": {
+				"lowercasing": true,
+				"tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+	"size": 353,
+  "cite": {
+          "title": "A study on similarity and relatedness using distributional and wordnet-based approaches",
+          "author":"Agirre, Eneko and Alfonseca, Enrique and Hall, Keith and Kravalova, Jana and Pacsca, Marius and Soroa, Aitor",
+          "booktitle":"Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+          "pages":"19--27",
+          "year":"2009",
+          "organization":"Association for Computational Linguistics",
+          "url":"http://alfonseca.org/eng/research/wordsim353.html"
+        }
 }

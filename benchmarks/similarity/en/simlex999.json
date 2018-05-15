@@ -1,16 +1,26 @@
 {
   "language": "en",
   "task": "similarity",
+  "name": "S999",
   "description": "SimLex-999",
   "version": "-",
-  "cite": "@article{hill2015simlex,
-          title={Simlex-999: Evaluating semantic models with (genuine) similarity estimation},
-          author={Hill, Felix and Reichart, Roi and Korhonen, Anna},
-          journal={Computational Linguistics},
-          volume={41},
-          number={4},
-          pages={665--695},
-          year={2015},
-          publisher={MIT Press}
-        }"
+  "preprocessing": {
+        "lowercasing": true,
+        "tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+  "size": 999,
+  "cite": {
+          "title":"Simlex-999: Evaluating semantic models with (genuine) similarity estimation",
+          "author":"Hill, Felix and Reichart, Roi and Korhonen, Anna",
+          "journal":"Computational Linguistics",
+          "volume":"41",
+          "number":"4",
+          "pages":"665--695",
+          "year":"2015",
+          "publisher":"MIT Press",
+          "url":"https://www.cl.cam.ac.uk/~fh295/simlex.html"
+        }
 }

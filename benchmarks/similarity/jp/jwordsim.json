@@ -1,7 +1,22 @@
 {
   "language": "jp",
   "task": "similarity",
-  "description": "Japanese Word Similarity",
+  "name": "jWS",
+  "description": "Japanese Word Similarity Dataset",
   "version": "-",
-  "cite": "-"
+  "preprocessing": {
+        "lowercasing": true,
+        "tokenization": true,
+        "dependency":false,
+        "pos_tags":false,
+        "stop_words":false
+      },
+  "size": 4851,
+  "cite": {
+          "title":"Construction of a Japanese Word Similarity Dataset",
+          "author":"Yuya Sakaizawa and Mamoru Komachi",
+          "journal":"11th edition of the Language Resources and Evaluation Conference (LREC 2018)",
+          "year":"2018",
+          "url":"https://github.com/tmu-nlp/JapaneseWordSimilarityDataset"
+          }
 }
